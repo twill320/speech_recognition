@@ -5,8 +5,7 @@
 # ===================================================================
 
 # 1. Virtual Environments
-# Never commit your virtual environment folder. It's specific to your
-# machine and can be huge. Recreate from requirements.txt instead.
+# Never your virtual environment folder.
 venv/
 .venv/
 env/
@@ -16,8 +15,8 @@ env.bak/
 venv.bak/
 
 # 2. Python Artifacts and Caches
-# These are generated automatically by Python to speed things up.
-# They are not source code and will be recreated as needed.
+# generated automatically by Python to speed things up.
+# not source code and will be recreated as needed.
 __pycache__/
 *.pyc
 *.pyo
@@ -34,7 +33,7 @@ build/
 *.sublime-workspace
 
 # 4. Operating System Files
-# System-specific metadata files that have no place in a repo.
+# no place in a repo.
 .DS_Store
 Thumbs.db
 
